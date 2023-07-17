@@ -1,6 +1,6 @@
 # Mini Javascript Projects
 
-## For practicing javascript 
+## For practicing javascript
 
-* Number Guess
-* Rock Paper and Sciccors game
+- Number Guess
+- Rock Paper and Scissors game
