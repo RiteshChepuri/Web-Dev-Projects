@@ -1,5 +1,3 @@
-# Mini Javascript Projects
+# Number Guess game in terminal
 
-1. NumberGuess
- > `npm i prompt-sync`
-
+> `npm i prompt-sync`
