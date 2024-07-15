@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background-color: #a1bdd914;
+  color: #f1f2f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.con {
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 90vh;
+  min-width: 400px;
+  padding: 1rem;
+}
+
+h1 {
+  color: #fec195;
+  font-size: 5rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+form {
+  max-width: 100%;
+  width: 400px;
+}
+
+.input {
+  border-radius: 5px;
+  color: #e2b203;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  margin: 1rem;
+}
+
+.input::placeholder {
+  color: #e2b203;
+}
+
+.input:focus {
+  outline-color: #8590a2;
+}
+
+.todos {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow-y: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.todos li {
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.3rem 2rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 0.5rem;
+}
+
+.todos li.completed {
+  color: #b6b6b6;
+  opacity: 0.5;
+  text-decoration: line-through;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 0.5rem;
+}
+
+small {
+  color: #a2a2a2;
+  text-align: center;
+}
