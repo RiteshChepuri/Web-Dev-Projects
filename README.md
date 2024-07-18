@@ -9,3 +9,4 @@
 - Real time Light Switch
 - TO DO App
 - Notes App
+- Password Generator
