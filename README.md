@@ -10,3 +10,4 @@
 - TO DO App
 - Notes App
 - Password Generator
+- Calculator
