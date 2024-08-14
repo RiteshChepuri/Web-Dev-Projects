@@ -11,3 +11,4 @@
 - Notes App
 - Password Generator
 - Calculator
+- Analog Clock
